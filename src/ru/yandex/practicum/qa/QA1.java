@@ -1,4 +1,7 @@
-package ru.yandex.practicum;
+package ru.yandex.practicum.qa;
+
+import ru.yandex.practicum.Num;
+import ru.yandex.practicum.Person;
 
 import java.sql.SQLOutput;
 import java.util.Arrays;
@@ -43,11 +46,11 @@ public class QA1 {
         System.out.println(s1 == s2);
         System.out.println(s1.equals(s2));
 
-        Person ivan = new Person("Ivan", 20);
+//        Person ivan = new Person("Ivan", 20);
 
 //        System.out.println(ivan.name);
 //        System.out.println(ivan.age);
-        ivan.sayHi();
+//        ivan.sayHi();
 
         int[] a = {1,2,3};
         System.out.println(Arrays.toString(a));
